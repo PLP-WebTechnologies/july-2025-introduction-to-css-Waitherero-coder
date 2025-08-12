@@ -1,0 +1,197 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Body */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+#site-header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #388E3C;
+}
+
+.site-title {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.site-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Section Headings */
+section h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    margin-bottom: 15px;
+}
+
+/* Lists */
+.expertise-list {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.expertise-list li {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.expertise-list li:hover {
+    transform: translateX(8px);
+}
+
+/* Project Card */
+.project-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #4CAF50;
+    margin-top: 10px;
+}
+
+.project-link {
+    display: inline-block;
+    color: #2196F3;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* Contact Info */
+.contact-details {
+    background-color: #fafafa;
+    padding: 10px;
+    border-left: 3px solid #999;
+}
+
+.contact-details p {
+    margin-bottom: 8px;
+}
+
+.contact-details a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styling */
+.form {
+    margin-top: 20px;
+}
+
+fieldset {
+    background-color: #f9fff9;
+    padding: 15px;
+    border: 2px solid #4CAF50;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #4CAF50;
+    padding: 0 10px;
+}
+
+/* Form layout */
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.button button:active {
+    transform: translateY(0); /* Back to normal when clicked */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.required {
+    color: red;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
